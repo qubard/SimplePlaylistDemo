@@ -1,0 +1,3003 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders add songs correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#undefined",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 10,
+        "paddingVertical": 12,
+      }
+    }
+  >
+    <View>
+      <View
+        accessible={true}
+        clickable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+          }
+        }
+        theme={
+          Object {
+            "colors": Object {
+              "disabled": "hsl(208, 8%, 90%)",
+              "divider": "#bcbbc1",
+              "error": "#ff190c",
+              "grey0": "#393e42",
+              "grey1": "#43484d",
+              "grey2": "#5e6977",
+              "grey3": "#86939e",
+              "grey4": "#bdc6cf",
+              "grey5": "#e1e8ee",
+              "greyOutline": "#bbb",
+              "platform": Object {
+                "android": Object {
+                  "error": "#f44336",
+                  "primary": "#2196f3",
+                  "secondary": "#9C27B0",
+                  "success": "#4caf50",
+                  "warning": "#ffeb3b",
+                },
+                "ios": Object {
+                  "error": "#ff3b30",
+                  "primary": "#007aff",
+                  "secondary": "#5856d6",
+                  "success": "#4cd964",
+                  "warning": "#ffcc00",
+                },
+              },
+              "primary": "#2089dc",
+              "searchBg": "#303337",
+              "secondary": "#8F0CE8",
+              "success": "#52c41a",
+              "warning": "#faad14",
+            },
+          }
+        }
+        underlayColor="white"
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 28,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="iconIcon"
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 22,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Select Songs
+    </Text>
+    <View>
+      <View
+        accessible={true}
+        clickable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+          }
+        }
+        theme={
+          Object {
+            "colors": Object {
+              "disabled": "hsl(208, 8%, 90%)",
+              "divider": "#bcbbc1",
+              "error": "#ff190c",
+              "grey0": "#393e42",
+              "grey1": "#43484d",
+              "grey2": "#5e6977",
+              "grey3": "#86939e",
+              "grey4": "#bdc6cf",
+              "grey5": "#e1e8ee",
+              "greyOutline": "#bbb",
+              "platform": Object {
+                "android": Object {
+                  "error": "#f44336",
+                  "primary": "#2196f3",
+                  "secondary": "#9C27B0",
+                  "success": "#4caf50",
+                  "warning": "#ffeb3b",
+                },
+                "ios": Object {
+                  "error": "#ff3b30",
+                  "primary": "#007aff",
+                  "secondary": "#5856d6",
+                  "success": "#4cd964",
+                  "warning": "#ffcc00",
+                },
+              },
+              "primary": "#2089dc",
+              "searchBg": "#303337",
+              "secondary": "#8F0CE8",
+              "success": "#52c41a",
+              "warning": "#faad14",
+            },
+          }
+        }
+        underlayColor="white"
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 28,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="iconIcon"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    contentInsetAdjustmentBehavior="automatic"
+    style={
+      Object {
+        "backgroundColor": "#ededed",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "paddingVertical": 5,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Clarity in Kerosene
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                nothing,nowhere
+                 • 
+                2017
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Hopes Up
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                nothing,nowhere
+                 • 
+                2017
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Skully
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                nothing,nowhere
+                 • 
+                2017
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Funeral Fantasy
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                nothing,nowhere
+                 • 
+                2017
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                REM
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                nothing,nowhere
+                 • 
+                2017
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Black Heart
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                nothing,nowhere
+                 • 
+                2017
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Marykate
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                nothing,nowhere
+                 • 
+                2017
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Houdini
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                nothing,nowhere
+                 • 
+                2017
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Hotline Bling
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Drake
+                 • 
+                2016
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Somebody Else
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                The 1975
+                 • 
+                2016
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                BTS (방탄소년단) 'DNA'
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                BTS
+                 • 
+                2018
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                Loner
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                YUNGBLUD
+                 • 
+                2019
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          clickable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 15,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "fontSize": "18",
+                  "marginRight": -40,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#404040",
+                    "fontSize": 18,
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                BLOODY STREAM
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#777777",
+                    "fontSize": 12,
+                  }
+                }
+              >
+                Coda
+                 • 
+                2013
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`renders headerpage correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#00aced",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 10,
+        "paddingVertical": 12,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      clickable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 22,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Generic Header
+    </Text>
+    <Text
+      accessible={true}
+      clickable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    />
+  </View>
+  <Text />
+</RCTSafeAreaView>
+`;
+
+exports[`renders playlists correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#00aced",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 10,
+        "paddingVertical": 12,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      clickable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    />
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 22,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Playlists
+    </Text>
+    <Text
+      accessible={true}
+      clickable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    />
+  </View>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      contentInsetAdjustmentBehavior="automatic"
+      style={
+        Object {
+          "backgroundColor": "#ededed",
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderBottomColor": "#D183BC",
+                      "borderBottomWidth": 3,
+                      "marginRight": 10,
+                      "width": 67,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/999/UP0700-CUSA04897_00-JOJOSEOHCOMPLETE/1557246893000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 67,
+                        "width": 67,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "fontSize": "18",
+                      "marginRight": -40,
+                    }
+                  }
+                >
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Object {
+                        "color": "#404040",
+                        "fontSize": 18,
+                        "fontWeight": "700",
+                      }
+                    }
+                  >
+                    jojo's bizarre adventure op
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    by 
+                    jotaro06
+                     • 
+                    1 song
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingHorizontal": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                      theme={
+                        Object {
+                          "colors": Object {
+                            "disabled": "hsl(208, 8%, 90%)",
+                            "divider": "#bcbbc1",
+                            "error": "#ff190c",
+                            "grey0": "#393e42",
+                            "grey1": "#43484d",
+                            "grey2": "#5e6977",
+                            "grey3": "#86939e",
+                            "grey4": "#bdc6cf",
+                            "grey5": "#e1e8ee",
+                            "greyOutline": "#bbb",
+                            "platform": Object {
+                              "android": Object {
+                                "error": "#f44336",
+                                "primary": "#2196f3",
+                                "secondary": "#9C27B0",
+                                "success": "#4caf50",
+                                "warning": "#ffeb3b",
+                              },
+                              "ios": Object {
+                                "error": "#ff3b30",
+                                "primary": "#007aff",
+                                "secondary": "#5856d6",
+                                "success": "#4cd964",
+                                "warning": "#ffcc00",
+                              },
+                            },
+                            "primary": "#2089dc",
+                            "searchBg": "#303337",
+                            "secondary": "#8F0CE8",
+                            "success": "#52c41a",
+                            "warning": "#faad14",
+                          },
+                        }
+                      }
+                      underlayColor="white"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#00aced",
+                              "fontSize": 24,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "Material Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderBottomColor": "#007A0C",
+                      "borderBottomWidth": 3,
+                      "marginRight": 10,
+                      "width": 67,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Scorpion_by_Drake.jpg/220px-Scorpion_by_Drake.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 67,
+                        "width": 67,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "fontSize": "18",
+                      "marginRight": -40,
+                    }
+                  }
+                >
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Object {
+                        "color": "#404040",
+                        "fontSize": 18,
+                        "fontWeight": "700",
+                      }
+                    }
+                  >
+                    Drake Playlist
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    by 
+                    DrakeFan400
+                     • 
+                    0 songs
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingHorizontal": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                      theme={
+                        Object {
+                          "colors": Object {
+                            "disabled": "hsl(208, 8%, 90%)",
+                            "divider": "#bcbbc1",
+                            "error": "#ff190c",
+                            "grey0": "#393e42",
+                            "grey1": "#43484d",
+                            "grey2": "#5e6977",
+                            "grey3": "#86939e",
+                            "grey4": "#bdc6cf",
+                            "grey5": "#e1e8ee",
+                            "greyOutline": "#bbb",
+                            "platform": Object {
+                              "android": Object {
+                                "error": "#f44336",
+                                "primary": "#2196f3",
+                                "secondary": "#9C27B0",
+                                "success": "#4caf50",
+                                "warning": "#ffeb3b",
+                              },
+                              "ios": Object {
+                                "error": "#ff3b30",
+                                "primary": "#007aff",
+                                "secondary": "#5856d6",
+                                "success": "#4cd964",
+                                "warning": "#ffcc00",
+                              },
+                            },
+                            "primary": "#2089dc",
+                            "searchBg": "#303337",
+                            "secondary": "#8F0CE8",
+                            "success": "#52c41a",
+                            "warning": "#faad14",
+                          },
+                        }
+                      }
+                      underlayColor="white"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#00aced",
+                              "fontSize": 24,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "Material Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderBottomColor": "#0477FF",
+                      "borderBottomWidth": 3,
+                      "marginRight": 10,
+                      "width": 67,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ebayimg.com/images/g/OvQAAOSwx~lca7Zw/s-l300.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 67,
+                        "width": 67,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "fontSize": "18",
+                      "marginRight": -40,
+                    }
+                  }
+                >
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Object {
+                        "color": "#404040",
+                        "fontSize": 18,
+                        "fontWeight": "700",
+                      }
+                    }
+                  >
+                    Loner
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    by 
+                    YUNGBLUD
+                     • 
+                    1 song
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingHorizontal": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                      theme={
+                        Object {
+                          "colors": Object {
+                            "disabled": "hsl(208, 8%, 90%)",
+                            "divider": "#bcbbc1",
+                            "error": "#ff190c",
+                            "grey0": "#393e42",
+                            "grey1": "#43484d",
+                            "grey2": "#5e6977",
+                            "grey3": "#86939e",
+                            "grey4": "#bdc6cf",
+                            "grey5": "#e1e8ee",
+                            "greyOutline": "#bbb",
+                            "platform": Object {
+                              "android": Object {
+                                "error": "#f44336",
+                                "primary": "#2196f3",
+                                "secondary": "#9C27B0",
+                                "success": "#4caf50",
+                                "warning": "#ffeb3b",
+                              },
+                              "ios": Object {
+                                "error": "#ff3b30",
+                                "primary": "#007aff",
+                                "secondary": "#5856d6",
+                                "success": "#4cd964",
+                                "warning": "#ffcc00",
+                              },
+                            },
+                            "primary": "#2089dc",
+                            "searchBg": "#303337",
+                            "secondary": "#8F0CE8",
+                            "success": "#52c41a",
+                            "warning": "#faad14",
+                          },
+                        }
+                      }
+                      underlayColor="white"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#00aced",
+                              "fontSize": 24,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "Material Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderBottomColor": "#8E343D",
+                      "borderBottomWidth": 3,
+                      "marginRight": 10,
+                      "width": 67,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/BTS%2C_Love_Yourself_Answer%2C_album_cover.jpg/220px-BTS%2C_Love_Yourself_Answer%2C_album_cover.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 67,
+                        "width": 67,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "fontSize": "18",
+                      "marginRight": -40,
+                    }
+                  }
+                >
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Object {
+                        "color": "#404040",
+                        "fontSize": 18,
+                        "fontWeight": "700",
+                      }
+                    }
+                  >
+                    Love Yourself 結 'Answer'
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    by 
+                    RM
+                     • 
+                    0 songs
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingHorizontal": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                      theme={
+                        Object {
+                          "colors": Object {
+                            "disabled": "hsl(208, 8%, 90%)",
+                            "divider": "#bcbbc1",
+                            "error": "#ff190c",
+                            "grey0": "#393e42",
+                            "grey1": "#43484d",
+                            "grey2": "#5e6977",
+                            "grey3": "#86939e",
+                            "grey4": "#bdc6cf",
+                            "grey5": "#e1e8ee",
+                            "greyOutline": "#bbb",
+                            "platform": Object {
+                              "android": Object {
+                                "error": "#f44336",
+                                "primary": "#2196f3",
+                                "secondary": "#9C27B0",
+                                "success": "#4caf50",
+                                "warning": "#ffeb3b",
+                              },
+                              "ios": Object {
+                                "error": "#ff3b30",
+                                "primary": "#007aff",
+                                "secondary": "#5856d6",
+                                "success": "#4cd964",
+                                "warning": "#ffcc00",
+                              },
+                            },
+                            "primary": "#2089dc",
+                            "searchBg": "#303337",
+                            "secondary": "#8F0CE8",
+                            "success": "#52c41a",
+                            "warning": "#faad14",
+                          },
+                        }
+                      }
+                      underlayColor="white"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#00aced",
+                              "fontSize": 24,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "Material Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderBottomColor": "#FF63A1",
+                      "borderBottomWidth": 3,
+                      "marginRight": 10,
+                      "width": 67,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/The_1975_%28album%29_by_The_1975.png/220px-The_1975_%28album%29_by_The_1975.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 67,
+                        "width": 67,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "fontSize": "18",
+                      "marginRight": -40,
+                    }
+                  }
+                >
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Object {
+                        "color": "#404040",
+                        "fontSize": 18,
+                        "fontWeight": "700",
+                      }
+                    }
+                  >
+                    The 1975
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    by 
+                    Anonymous
+                     • 
+                    0 songs
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingHorizontal": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                      theme={
+                        Object {
+                          "colors": Object {
+                            "disabled": "hsl(208, 8%, 90%)",
+                            "divider": "#bcbbc1",
+                            "error": "#ff190c",
+                            "grey0": "#393e42",
+                            "grey1": "#43484d",
+                            "grey2": "#5e6977",
+                            "grey3": "#86939e",
+                            "grey4": "#bdc6cf",
+                            "grey5": "#e1e8ee",
+                            "greyOutline": "#bbb",
+                            "platform": Object {
+                              "android": Object {
+                                "error": "#f44336",
+                                "primary": "#2196f3",
+                                "secondary": "#9C27B0",
+                                "success": "#4caf50",
+                                "warning": "#ffeb3b",
+                              },
+                              "ios": Object {
+                                "error": "#ff3b30",
+                                "primary": "#007aff",
+                                "secondary": "#5856d6",
+                                "success": "#4cd964",
+                                "warning": "#ffcc00",
+                              },
+                            },
+                            "primary": "#2089dc",
+                            "searchBg": "#303337",
+                            "secondary": "#8F0CE8",
+                            "success": "#52c41a",
+                            "warning": "#faad14",
+                          },
+                        }
+                      }
+                      underlayColor="white"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#00aced",
+                              "fontSize": 24,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "Material Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderBottomColor": "#28EFC2",
+                      "borderBottomWidth": 3,
+                      "marginRight": 10,
+                      "width": 67,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://us.123rf.com/450wm/princeoflove/princeoflove1705/princeoflove170500212/78744125-man-holding-record-isolated-on-green-art-filter-music-background.jpg?ver=6",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 67,
+                        "width": 67,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "fontSize": "18",
+                      "marginRight": -40,
+                    }
+                  }
+                >
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Object {
+                        "color": "#404040",
+                        "fontSize": 18,
+                        "fontWeight": "700",
+                      }
+                    }
+                  >
+                    Empty album
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    by 
+                    another
+                     • 
+                    0 songs
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingHorizontal": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                      theme={
+                        Object {
+                          "colors": Object {
+                            "disabled": "hsl(208, 8%, 90%)",
+                            "divider": "#bcbbc1",
+                            "error": "#ff190c",
+                            "grey0": "#393e42",
+                            "grey1": "#43484d",
+                            "grey2": "#5e6977",
+                            "grey3": "#86939e",
+                            "grey4": "#bdc6cf",
+                            "grey5": "#e1e8ee",
+                            "greyOutline": "#bbb",
+                            "platform": Object {
+                              "android": Object {
+                                "error": "#f44336",
+                                "primary": "#2196f3",
+                                "secondary": "#9C27B0",
+                                "success": "#4caf50",
+                                "warning": "#ffeb3b",
+                              },
+                              "ios": Object {
+                                "error": "#ff3b30",
+                                "primary": "#007aff",
+                                "secondary": "#5856d6",
+                                "success": "#4cd964",
+                                "warning": "#ffcc00",
+                              },
+                            },
+                            "primary": "#2089dc",
+                            "searchBg": "#303337",
+                            "secondary": "#8F0CE8",
+                            "success": "#52c41a",
+                            "warning": "#faad14",
+                          },
+                        }
+                      }
+                      underlayColor="white"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#00aced",
+                              "fontSize": 24,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "Material Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderBottomColor": "#C19EFF",
+                      "borderBottomWidth": 3,
+                      "marginRight": 10,
+                      "width": 67,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://lh5.googleusercontent.com/-444l_KCN5iA/TXFDWWJyuwI/AAAAAAAABNY/PLNJLdqMyg4/s1600/Pink_Floyd_-_Dark_Side_of_the_Moon.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 67,
+                        "width": 67,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "fontSize": "18",
+                      "marginRight": -40,
+                    }
+                  }
+                >
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Object {
+                        "color": "#404040",
+                        "fontSize": 18,
+                        "fontWeight": "700",
+                      }
+                    }
+                  >
+                    Pink Floyd
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    by 
+                    fan500
+                     • 
+                    0 songs
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingHorizontal": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                      theme={
+                        Object {
+                          "colors": Object {
+                            "disabled": "hsl(208, 8%, 90%)",
+                            "divider": "#bcbbc1",
+                            "error": "#ff190c",
+                            "grey0": "#393e42",
+                            "grey1": "#43484d",
+                            "grey2": "#5e6977",
+                            "grey3": "#86939e",
+                            "grey4": "#bdc6cf",
+                            "grey5": "#e1e8ee",
+                            "greyOutline": "#bbb",
+                            "platform": Object {
+                              "android": Object {
+                                "error": "#f44336",
+                                "primary": "#2196f3",
+                                "secondary": "#9C27B0",
+                                "success": "#4caf50",
+                                "warning": "#ffeb3b",
+                              },
+                              "ios": Object {
+                                "error": "#ff3b30",
+                                "primary": "#007aff",
+                                "secondary": "#5856d6",
+                                "success": "#4cd964",
+                                "warning": "#ffcc00",
+                              },
+                            },
+                            "primary": "#2089dc",
+                            "searchBg": "#303337",
+                            "secondary": "#8F0CE8",
+                            "success": "#52c41a",
+                            "warning": "#faad14",
+                          },
+                        }
+                      }
+                      underlayColor="white"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#00aced",
+                              "fontSize": 24,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "Material Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            accessible={true}
+            clickable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": Array [
+                    Object {
+                      "scale": 1,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 5,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "borderBottomColor": "#404040",
+                      "borderBottomWidth": 3,
+                      "marginRight": 10,
+                      "width": 67,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "data:image/jpeg;base64,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",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 67,
+                        "width": 67,
+                      }
+                    }
+                  />
+                </View>
+                <View
+                  style={
+                    Object {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "flexGrow": 1,
+                      "fontSize": "18",
+                      "marginRight": -40,
+                    }
+                  }
+                >
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      Object {
+                        "color": "#404040",
+                        "fontSize": 18,
+                        "fontWeight": "700",
+                      }
+                    }
+                  >
+                    reaper
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 12,
+                      }
+                    }
+                  >
+                    by 
+                    nothing,nowhere
+                     • 
+                    10 songs
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "paddingHorizontal": 5,
+                    }
+                  }
+                >
+                  <View>
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "transparent",
+                          "justifyContent": "center",
+                        }
+                      }
+                      theme={
+                        Object {
+                          "colors": Object {
+                            "disabled": "hsl(208, 8%, 90%)",
+                            "divider": "#bcbbc1",
+                            "error": "#ff190c",
+                            "grey0": "#393e42",
+                            "grey1": "#43484d",
+                            "grey2": "#5e6977",
+                            "grey3": "#86939e",
+                            "grey4": "#bdc6cf",
+                            "grey5": "#e1e8ee",
+                            "greyOutline": "#bbb",
+                            "platform": Object {
+                              "android": Object {
+                                "error": "#f44336",
+                                "primary": "#2196f3",
+                                "secondary": "#9C27B0",
+                                "success": "#4caf50",
+                                "warning": "#ffeb3b",
+                              },
+                              "ios": Object {
+                                "error": "#ff3b30",
+                                "primary": "#007aff",
+                                "secondary": "#5856d6",
+                                "success": "#4cd964",
+                                "warning": "#ffcc00",
+                              },
+                            },
+                            "primary": "#2089dc",
+                            "searchBg": "#303337",
+                            "secondary": "#8F0CE8",
+                            "success": "#52c41a",
+                            "warning": "#faad14",
+                          },
+                        }
+                      }
+                      underlayColor="white"
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#00aced",
+                              "fontSize": 24,
+                            },
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            Object {
+                              "fontFamily": "Material Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                        testID="iconIcon"
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</RCTSafeAreaView>
+`;
+
+exports[`renders songs correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#D183BC",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingHorizontal": 10,
+        "paddingVertical": 12,
+      }
+    }
+  >
+    <View>
+      <View
+        accessible={true}
+        clickable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+          }
+        }
+        theme={
+          Object {
+            "colors": Object {
+              "disabled": "hsl(208, 8%, 90%)",
+              "divider": "#bcbbc1",
+              "error": "#ff190c",
+              "grey0": "#393e42",
+              "grey1": "#43484d",
+              "grey2": "#5e6977",
+              "grey3": "#86939e",
+              "grey4": "#bdc6cf",
+              "grey5": "#e1e8ee",
+              "greyOutline": "#bbb",
+              "platform": Object {
+                "android": Object {
+                  "error": "#f44336",
+                  "primary": "#2196f3",
+                  "secondary": "#9C27B0",
+                  "success": "#4caf50",
+                  "warning": "#ffeb3b",
+                },
+                "ios": Object {
+                  "error": "#ff3b30",
+                  "primary": "#007aff",
+                  "secondary": "#5856d6",
+                  "success": "#4cd964",
+                  "warning": "#ffcc00",
+                },
+              },
+              "primary": "#2089dc",
+              "searchBg": "#303337",
+              "secondary": "#8F0CE8",
+              "success": "#52c41a",
+              "warning": "#faad14",
+            },
+          }
+        }
+        underlayColor="white"
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 28,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="iconIcon"
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 22,
+          "fontWeight": "700",
+        }
+      }
+    >
+      jojo's bizarre...
+    </Text>
+    <View>
+      <View
+        accessible={true}
+        clickable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "justifyContent": "center",
+          }
+        }
+        theme={
+          Object {
+            "colors": Object {
+              "disabled": "hsl(208, 8%, 90%)",
+              "divider": "#bcbbc1",
+              "error": "#ff190c",
+              "grey0": "#393e42",
+              "grey1": "#43484d",
+              "grey2": "#5e6977",
+              "grey3": "#86939e",
+              "grey4": "#bdc6cf",
+              "grey5": "#e1e8ee",
+              "greyOutline": "#bbb",
+              "platform": Object {
+                "android": Object {
+                  "error": "#f44336",
+                  "primary": "#2196f3",
+                  "secondary": "#9C27B0",
+                  "success": "#4caf50",
+                  "warning": "#ffeb3b",
+                },
+                "ios": Object {
+                  "error": "#ff3b30",
+                  "primary": "#007aff",
+                  "secondary": "#5856d6",
+                  "success": "#4cd964",
+                  "warning": "#ffcc00",
+                },
+              },
+              "primary": "#2089dc",
+              "searchBg": "#303337",
+              "secondary": "#8F0CE8",
+              "success": "#52c41a",
+              "warning": "#faad14",
+            },
+          }
+        }
+        underlayColor="white"
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 28,
+              },
+              Object {
+                "backgroundColor": "transparent",
+              },
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          testID="iconIcon"
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    contentInsetAdjustmentBehavior="automatic"
+    style={
+      Object {
+        "backgroundColor": "#ededed",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "paddingVertical": 5,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "paddingHorizontal": 15,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            clickable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "marginRight": 10,
+              }
+            }
+          >
+            <View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "justifyContent": "center",
+                  }
+                }
+                theme={
+                  Object {
+                    "colors": Object {
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "primary": "#2196f3",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "primary": "#007aff",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#8F0CE8",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                    },
+                  }
+                }
+                underlayColor="white"
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#D183BC",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                      Object {
+                        "fontFamily": "Material Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                  testID="iconIcon"
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+                "flexGrow": 1,
+                "fontSize": "18",
+                "marginRight": -40,
+              }
+            }
+          >
+            <Text
+              ellipsizeMode="tail"
+              numberOfLines={1}
+              style={
+                Object {
+                  "color": "#404040",
+                  "fontSize": 18,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              BLOODY STREAM
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#777777",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Coda
+               • 
+              2013
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
