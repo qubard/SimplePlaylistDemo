@@ -12,7 +12,7 @@ This is my Evernote Take-Home project. Developed and tested with android. The re
 
 State is managed with Redux and we use a normalized version of playlists and songs then write actions/connectors to send data from the state store and retrieve it. The `concat` reducer is helpful for adding a generic element to an array.
 
-For navigation, we use `react-navigation` and use our own custom header. For icons, we use `react-native-icons`.
+For navigation, we use `react-navigation` and use our own custom header. For icons, we use `react-native-vector-icons`.
 
 # Setup
 
