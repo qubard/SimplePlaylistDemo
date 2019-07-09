@@ -1,5 +1,9 @@
 # SimplePlaylistDemo
 
+![](/screenshots/playlists.png)
+![](/screenshots/addsongs.png)
+![](/screenshots/songs.png)
+
 # About
 
 This is my Evernote Take-Home project. Developed and tested with android. The released APK can be found in `android/app/build/outputs/apk/release/app-release.apk`
